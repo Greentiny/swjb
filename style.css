@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     
+    
 }
 a{
     text-decoration: none;
@@ -100,3 +101,76 @@ li{
     color: black;
     
 }
+.about{
+    width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  
+  }
+  .about h2{
+    font-size: 40px;
+    color: #065a1f;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+  }
+  .about h1{
+    font-size: 50px;
+  }
+  .about .contents{
+    width: 1400px;
+    height: 410px;
+    display: flex;
+    margin-top: 10px;
+  
+    
+  }
+  .about .left{
+    width: 600px;
+    height: 410px;
+  }
+  .about .left img{
+    width: 600px;
+    height: 410px;
+  
+  }
+  .about .right{
+    width: 800px;
+    height: 410px;
+    
+    padding-left: 50px;
+  }
+  .about .right h1{
+    font-size: 30px;
+  }
+  .about .right span{
+     color: #065a1f;
+     font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+  }
+  .about .right li{
+    font-size: 24px;
+    margin-top: 16px;
+  }
+  .fa-facebook{
+    font-size: 45px;
+    color: #000;
+    margin-right: 10px;
+  }
+  .fa-youtube{
+    font-size: 45px;
+    color: #000;
+    margin-right: 10px;
+  }
+  .fa-instagram{
+    font-size: 45px;
+    color: #000;
+    
+  }
+  
+  
