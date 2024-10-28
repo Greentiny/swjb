@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+   
    
     
     
@@ -174,7 +174,7 @@ li{
     
 }
 
-.about{
+.about-inner{
     width: 1400px;
     height: 700px;
     margin: 0 auto;
@@ -185,6 +185,7 @@ li{
   
   }
   .about h2{
+    
     font-size: 40px;
     color: rgb(160, 69, 160);
     font-family: "Playpen Sans", cursive;
@@ -200,6 +201,7 @@ li{
     height: 410px;
     display: flex;
     margin-top: 10px;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, .25);
   
     
   }
@@ -215,11 +217,13 @@ li{
   .about .right{
     width: 800px;
     height: 410px;
-    
+    margin-top: 20px;
     padding-left: 50px;
+    
   }
   .about .right h1{
     font-size: 30px;
+    
   }
   .about .right span{
      color: rgb(160, 69, 160);
@@ -230,33 +234,19 @@ li{
   }
   .about .right li{
     font-size: 24px;
-    font-weight: 550;
+    color: #464444;
     margin-top: 16px;
-  }
-  .fa-facebook{
-    font-size: 45px;
-    color: #000;
-    margin-right: 10px;
-  }
-  .fa-youtube{
-    font-size: 45px;
-    color: #000;
-    margin-right: 10px;
-  }
-  .fa-instagram{
-    font-size: 45px;
-    color: #000;
-    
   }
   .skills{
     background-color: #f8f8f8;
     width: 100%;
     height: 700px;
-    margin-top: 100px;
     padding-top: 100px;
+    padding-top: 100px;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, .25);
     
   }
-  .skills h2{
+  .skills h2,.project h2{
     font-size: 40px;
     color: rgb(160, 69, 160);
     font-family: "Playpen Sans", cursive;
@@ -264,10 +254,10 @@ li{
     font-weight: 200px;
     font-style: normal;
   }
-  .skills h1{
+  .skills h1,.project h1 {
     font-size: 50px;
   }
-  .skills-inner{
+  .skills-inner {
     width: 1400px;
     height: 700px;
     margin: 0 auto;
@@ -311,6 +301,12 @@ li{
     border-radius: 15px;
 
   }
+  .skills h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+    
+  }
   .bg{
     width: 100%;
     height: 800px;
@@ -319,15 +315,71 @@ li{
     background-attachment: fixed;
   }
   .project{
-    height: 1200px;
-    margin-top: 0;
+    height: 700px;
+    padding-top: 100px;
+    
+    
   }
+  .project-inner{
+    width: 1400px;
+    height: 700px;
+    margin: 0 auto;
+    
+    
+   
+  }
+  
+  
+  .project .contents{
+    width: 1400px;
+    height: 550px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    
+
+  }
+  .project .contents li{
+    width: 400px;
+    height: 400px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, .25);
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+
+  }
+  .project .contents li:hover{
+    transform: scale(1.04);
+    background-color: rgba(0, 0, 0, .25);
+    
+  }
+  .project span{
+    width: 300px;
+    height: 60px;
+    background-color: #161515;
+    color: white;
+  }
+  
+  
   .contact{
     width: 1200px;
     height: 1000px;
     margin: 0 auto;
-    margin-top: 100px;
+    padding-top: 100px;
+    margin-top: 50px;
+    
+  }
+  .contact-inner{
+    width: 1200px;
+    height: 100px;
     padding-top: 30px;
+    
+
+    border-top:2px dashed #ceb8b8; 
+
   }
   .contact h2{
     font-size: 40px;
@@ -361,10 +413,10 @@ li{
   .contact .right{
     width: 800px;
     height: 700px;
-    border: 1px solid rgb(217, 158, 217);
+    
     padding-left: 30px;
-    padding-right: 30px;
-    margin-top: 20px;
+    padding-right: px;
+    padding-top: 20px;
     border-radius: 5px;
     
 
@@ -378,32 +430,33 @@ li{
     background-color: white;
     border-radius: 10px;
   }
-  .contact .right p{
-    margin-top: 20px;
-    
-    
-
-  }
+  
   .contact .right input{
+    margin-top: 20px;
     width: 700px;
-    height: 30px;
+    height: 40px;
     border: 1px solid #ccc;
 
   }
   .contact .right textarea{
-    width: 800px;
+    margin-top: 20px;
+    width: 700px;
     height: 400px;
     border: 1px solid #ccc;
+    padding: 10px;
+    font-family: Nanum Gothic, sans-serif;
+    font-size: 16px;
+    resize: none;
 
   }
   .contact button{
-    width: 740px;
+    width: 700px;
     height: 40px;
     font-size: 20px;
     color: white;
     border: 1px solid rgb(160, 69, 160);
     background-color: rgb(160, 69, 160);
-    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
     
 
   }
