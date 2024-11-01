@@ -26,9 +26,13 @@ li {
   width: 100%;
   height: 1200px;
   
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('sky.jpg');
+  /* background:  url('blue sky.jpg');
   background-size: cover;
   background-color:rgba(0, 0, 0, 0.8);
+   */
+   background-color: 
+   
+#DBC2E2 ;
   color: white;
   margin-top: -200px;
   padding-top: 230px;
@@ -36,10 +40,12 @@ li {
 
 }
 
-.header {
+#header {
   width: 100%;
   height: 90px;
+  
   background-color:transparent;
+  transition: background-color 0.3s;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,6 +53,10 @@ li {
   top: 0;
   z-index: 1000;
 
+}
+.scrolled {
+  background-color: white !important; /* 스크롤 시 흰색 배경 */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* 필요에 따라 그림자 추가 */
 }
 
 .logo {
@@ -60,7 +70,7 @@ li {
 }
 
 .logo a {
-  color: rgb(86, 10, 86);
+  color: #48173F;
   transition: 0.3s;
 }
 
@@ -85,7 +95,7 @@ li {
   font-weight: 550;
   text-align: center;
   font-size: 24px;
-  transition: 0.4s;
+  
 
 }
 
@@ -94,7 +104,7 @@ li {
 
   /* font-size: 26px; */
 
-  text-decoration: underline;
+   text-decoration: underline #48173F;
 
 
 }
@@ -105,7 +115,7 @@ li {
 
 .menu li a {
 
-  color: rgb(86, 10, 86);
+  color: #48173F;
 }
 
 .main {
@@ -135,7 +145,7 @@ li {
 }
 
 .mouse i {
-  color: rgb(86, 10, 86);
+  color:  #48173F;
 }
 
 @keyframes mouse {
@@ -154,16 +164,19 @@ li {
 }
 
 .main .h1 span {
-  font-size: 90px;
+  font-size: 80px;
   display: inline-block;
   margin-bottom: 30px;
+  color: #48173F;
 
 
 
 }
 
 .main .h2 span {
-  font-size: 35px;
+  font-size: 30px;
+  color: #48173F;
+
 
 }
 
@@ -198,25 +211,48 @@ li {
 }
 .mainpic{
   position: absolute;
-  width: 600px;
+  width: 700px;
   height: 1200px;
   right: 0;
   top: 0px;
-  background-color: #d9c7e3;
-  /* background: url(purple\ homepage.jpg) no-repeat;
-  background-size: cover;
-  z-index: 100px; */
+  /* background-color:
+  #A68DAB; */
+  /* background: url(main\ sky.jpg) no-repeat;
+  background-size: cover; */
+  z-index: 100px; 
+}
+
+.slider {
+  width: 100%; /* 원하는 너비와 높이 설정 */
+  max-width: 700px;
+  height: 1200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  height: 1200px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .about {
   background-color: #f6f4fc;
+  padding-top: 90px;
 }
 
 .about-inner {
   width: 1400px;
   height: 800px;
   margin: 0 auto;
-  padding-top: 70px;
+  
   padding-bottom: 70px;
   padding-top: 90px;
 
@@ -262,7 +298,7 @@ li {
 .about .right {
   width: 800px;
   height: 410px;
-  margin-top: 20px;
+  margin-top: 40px;
   padding-left: 50px;
 
 }
@@ -290,20 +326,25 @@ li {
   
   width: 100%;
   height: 700px;
-  padding-top: 100px;
-  padding-top: 100px;
+  padding-top: 130px;
+  
   box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, .25);
+  background-color:#E8F5FB;
+  padding-bottom: 100px;
 
 }
 
 .skills h2,
 .project h2 {
   font-size: 40px;
-  color:rgb(137, 76, 137);
+  color: #A3C4D9;
   font-family: "Playpen Sans", cursive;
   font-optical-sizing: auto;
   font-weight: 200px;
   font-style: normal;
+}
+.project h2{
+  color: #F09AAD;
 }
 
 .skills h1,
@@ -347,20 +388,21 @@ li {
 
 .skills i,
 .skills span {
-  color:  rgb(137, 76, 137);
+  color:#5B6D7D;
+  
   font-size: 200px;
 }
 
 .skills .contents li:hover i {
-  color:
-  rgb(137, 76, 137);
+  color: 
+  #A3C4D9;
   color: white;
 
 }
 
 .skills .contents li:hover {
   background-color: 
-  rgb(137, 76, 137);
+  #A3C4D9;
   color: white;
   border-radius: 15px;
 
@@ -376,7 +418,7 @@ li {
 .bg {
   width: 100%;
   height: 800px;
-  background: url(bg4.jpg) no-repeat;
+  background: url(bgpurple.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -386,7 +428,8 @@ li {
 
 .project {
   height: 800px;
-  padding-top: 100px;
+  padding-top: 150px;
+  padding-bottom: 100px;
   width: 1700px;
   margin: 0 auto;
   
@@ -410,6 +453,7 @@ width: 1700px;
 
 
 .project .contents {
+  margin-top: 20px;
   width: 1700px;
   height: 550px;
   display: flex;
@@ -518,6 +562,7 @@ button.visit{
   width: 1200px;
   height: 100px;
   padding-top: 30px;
+  text-align: center;
 
 
   border-top: 3px dashed #9A6DA6;
@@ -535,12 +580,16 @@ button.visit{
 
 .contact h1 {
   font-size: 50px;
+  display: block;
+  padding-bottom: 10px;
 }
 
 .contact .contents {
+  margin-top: 20px;
   width: 1200px;
-  height: 700px;
+  height: 650px;
   display: flex;
+  box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, .08);
   
 
 
@@ -550,31 +599,34 @@ button.visit{
 
 .contact .left {
   width: 400px;
-  height: 700px;
+  height: 650px;
 
-  margin-right: 20px;
+  
   align-items: center;
   padding-left: 20px;
-
+  
 }
 
 .contact .right {
   width: 800px;
-  height: 700px;
+  height: 650px;
+  border-left: solid rgba(137, 76, 137,0.2);
 
-  padding-left: 30px;
+  
 
   padding-top: 20px;
   border-radius: 5px;
+  background-color:  #DBC2E2 ;
+  
 
 
 }
 
 .info {
-  width: 350px;
+  width: 300px;
   height: 80px;
-  border: 1px solid #9A6DA6;
   
+  margin-left: 20px;
   padding: 15px;
   margin-top: 20px;
   background-color: white;
@@ -583,7 +635,7 @@ button.visit{
 
 .flower {
   width: 300px;
-  height: 300px;
+  height: 280px;
   background-image: url(purple\ flower.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -597,6 +649,7 @@ button.visit{
   width: 700px;
   height: 40px;
   border: 1px solid #ccc;
+  
 
 }
 
@@ -619,7 +672,7 @@ button.visit{
   color: white;
   
   background-color:
-  #9f63a7;
+  #836A8A;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
 
 
@@ -631,7 +684,8 @@ footer{
   box-shadow: 1px 1px 8px 1px rgba(12, 0, 21, 0.25);
   background-color:
  
-  #787b91;
+  
+#5B6D7D;
 }
 
 footer .right-footer{
