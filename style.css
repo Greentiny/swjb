@@ -25,14 +25,14 @@ li {
 .container {
   width: 100%;
   height: 1200px;
-  
+
   /* background:  url('blue sky.jpg');
   background-size: cover;
   background-color:rgba(0, 0, 0, 0.8);
    */
-   background-color: 
-   
-#DBC2E2 ;
+  background-color:
+
+    #DBC2E2;
   color: white;
   margin-top: -200px;
   padding-top: 230px;
@@ -43,8 +43,8 @@ li {
 #header {
   width: 100%;
   height: 100px;
-  
-  background-color:transparent;
+
+  background-color: transparent;
   transition: background-color 0.3s;
   display: flex;
   justify-content: space-between;
@@ -54,27 +54,30 @@ li {
   z-index: 1000;
 
 }
+
 .scrolled {
-  background-color: white !important; /* 스크롤 시 흰색 배경 */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* 필요에 따라 그림자 추가 */
+  background-color: white !important;
+  /* 스크롤 시 흰색 배경 */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  /* 필요에 따라 그림자 추가 */
 }
 
 .logo {
   width: 200px;
   height: 100px;
   text-align: center;
- align-items: center;
+  align-items: center;
 
 }
 
 .logo a {
-   font-size: 60px;
+  font-size: 60px;
   font-weight: bold;
-  
- 
+
+
   font-family: "Playpen Sans", cursive;
   font-optical-sizing: auto;
- 
+
   font-style: normal;
   color: #48173F;
   transition: 0.3s;
@@ -86,7 +89,7 @@ li {
 }
 
 .menu {
-  width: 500px;
+  width: 600px;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -100,8 +103,8 @@ li {
   width: 25%;
   font-weight: 550;
   text-align: center;
-  font-size: 24px;
-  
+  font-size: 30px;
+
 
 }
 
@@ -110,7 +113,7 @@ li {
 
   /* font-size: 26px; */
 
-   text-decoration: underline #48173F;
+  text-decoration: underline #48173F;
 
 
 }
@@ -151,7 +154,7 @@ li {
 }
 
 .mouse i {
-  color:  #48173F;
+  color: #48173F;
 }
 
 @keyframes mouse {
@@ -215,7 +218,8 @@ li {
 
 
 }
-.mainpic{
+
+.mainpic {
   position: absolute;
   width: 700px;
   height: 1200px;
@@ -225,11 +229,12 @@ li {
   #A68DAB; */
   /* background: url(main\ sky.jpg) no-repeat;
   background-size: cover; */
-  z-index: 100px; 
+  z-index: 100px;
 }
 
 .slider {
-  width: 100%; /* 원하는 너비와 높이 설정 */
+  width: 100%;
+  /* 원하는 너비와 높이 설정 */
   max-width: 700px;
   height: 1200px;
   overflow: hidden;
@@ -252,13 +257,15 @@ li {
 .about {
   background-color: #f6f4fc;
   padding-top: 90px;
+  position: relative;
 }
+
 
 .about-inner {
   width: 1400px;
   height: 800px;
   margin: 0 auto;
-  
+
   padding-bottom: 70px;
   padding-top: 90px;
 
@@ -268,7 +275,7 @@ li {
 .about h2 {
 
   font-size: 40px;
-  color:rgb(137, 76, 137);
+  color: rgb(137, 76, 137);
   font-family: "Playpen Sans", cursive;
   font-optical-sizing: auto;
   font-weight: 200px;
@@ -304,7 +311,7 @@ li {
 .about .right {
   width: 800px;
   height: 410px;
-  margin-top: 40px;
+  margin-top: 30px;
   padding-left: 50px;
 
 }
@@ -328,14 +335,35 @@ li {
   margin-top: 16px;
 }
 
+.contacticon {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  position: relative;
+}
+
+.contacticon img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.contacticon i {
+  position: absolute;
+  font-size: 50px;
+  top: 0;
+
+}
+
+
 .skills {
-  
+
   width: 100%;
   height: 700px;
   padding-top: 130px;
-  
+
   box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, .25);
-  background-color:#E8F5FB;
+  background-color: #E8F5FB;
   padding-bottom: 100px;
 
 }
@@ -349,7 +377,8 @@ li {
   font-weight: 200px;
   font-style: normal;
 }
-.project h2{
+
+.project h2 {
   color: #F09AAD;
 }
 
@@ -379,9 +408,9 @@ li {
   height: 350px;
   font-size: 20px;
   text-align: center;
-  
+
   padding: 20px;
-  
+
 
 }
 
@@ -394,27 +423,28 @@ li {
 
 .skills i,
 .skills span {
-  color:#5B6D7D;
-  
+  color: #5B6D7D;
+
   font-size: 200px;
 }
-.lora{
+
+.lora {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+
   font-style: normal;
 }
 
 .skills .contents li:hover i {
-  color: 
-  #A3C4D9;
+  color:
+    #A3C4D9;
   color: white;
 
 }
 
 .skills .contents li:hover {
-  background-color: 
-  #A3C4D9;
+  background-color:
+    #A3C4D9;
   color: white;
   border-radius: 15px;
 
@@ -434,7 +464,8 @@ li {
   background-size: cover;
   background-attachment: fixed;
 }
-.allproject{
+
+.allproject {
   background-color: ;
 }
 
@@ -444,21 +475,24 @@ li {
   padding-bottom: 100px;
   width: 1700px;
   margin: 0 auto;
-  
+
 
 }
 
 .project-innerWrap {
   width: 1700px;
   height: 700px;
- 
+
 
 
 }
-.project-inner{
-width: 1700px;
+
+.project-inner {
+  width: 1700px;
 }
-.project-inner h2,.project-inner h1{
+
+.project-inner h2,
+.project-inner h1 {
   display: block;
   padding-left: 30px;
 }
@@ -487,16 +521,18 @@ width: 1700px;
 
   position: relative;
 }
-.contents .kakao{
+
+.contents .kakao {
   width: 500px;
   height: 425px;
   background: url(kokoaThumbnail_h8OxaLt_WUzjUct.webp) no-repeat;
   background-size: contain;
   border-radius: 20px;
   /* background-attachment: fixed; */
-position: absolute;
+  position: absolute;
 }
-.contents .math{
+
+.contents .math {
   width: 500px;
   height: 400px;
   background: url(mathh.jpg) no-repeat;
@@ -504,7 +540,8 @@ position: absolute;
   border-radius: 20px;
 
 }
-.contents .person{
+
+.contents .person {
   width: 500px;
   height: 400px;
   background: url(person.jpg) no-repeat;
@@ -544,9 +581,11 @@ position: absolute;
   display: block;
   margin-bottom: 15px;
 }
-.project .des p{
+
+.project .des p {
   color: #464444;
 }
+
 button.visit {
   width: 100px;
   height: 40px;
@@ -557,9 +596,10 @@ button.visit {
   right: 30px;
   bottom: 20px;
   font-size: 20px;
-  
+
 }
-button.visit a{
+
+button.visit a {
   color: white;
 }
 
@@ -586,7 +626,7 @@ button.visit a{
 
 .contact h2 {
   font-size: 40px;
-  color:rgb(137, 76, 137);
+  color: rgb(137, 76, 137);
   font-family: "Playpen Sans", cursive;
   font-optical-sizing: auto;
   font-weight: 200px;
@@ -605,7 +645,7 @@ button.visit a{
   height: 650px;
   display: flex;
   box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, .08);
-  
+
 
 
 
@@ -616,23 +656,23 @@ button.visit a{
   width: 400px;
   height: 650px;
 
-  
+
   align-items: center;
   padding-left: 20px;
-  
+
 }
 
 .contact .right {
   width: 800px;
   height: 650px;
-  border-left: solid rgba(137, 76, 137,0.2);
+  border-left: solid rgba(137, 76, 137, 0.2);
 
-  
+
 
   padding-top: 20px;
   border-radius: 5px;
-  background-color:  #DBC2E2 ;
-  
+  background-color: #DBC2E2;
+
 
 
 }
@@ -640,7 +680,7 @@ button.visit a{
 .info {
   width: 300px;
   height: 80px;
-  
+
   margin-left: 20px;
   padding: 15px;
   margin-top: 20px;
@@ -664,7 +704,7 @@ button.visit a{
   width: 700px;
   height: 40px;
   border: 1px solid #ccc;
-  
+
 
 }
 
@@ -685,29 +725,30 @@ button.visit a{
   height: 40px;
   font-size: 20px;
   color: white;
-  
-  background-color:#836A8A;
+
+  background-color: #836A8A;
   border-color: #836A8A;
-  
+
 
 
 }
-footer{
+
+footer {
   width: 100%;
   height: 140px;
- position: relative;
+  position: relative;
   box-shadow: 1px 1px 8px 1px rgba(12, 0, 21, 0.25);
   background-color:
- 
-  
-#5B6D7D;
+
+
+    #5B6D7D;
 }
 
-footer .right-footer{
-font-size: 24px;
-/* color: rgb(86, 10, 86); */
-color: white;
-position: absolute;
-right: 20px;
-bottom: 25px;
+footer .right-footer {
+  font-size: 24px;
+  /* color: rgb(86, 10, 86); */
+  color: white;
+  position: absolute;
+  right: 20px;
+  bottom: 25px;
 }
